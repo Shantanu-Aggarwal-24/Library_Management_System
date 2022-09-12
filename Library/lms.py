@@ -6,9 +6,6 @@ class Library:
     def displayAvailableBooks(self):
         print("Books present in this library are: ")
         
-        # for book in self.books: 
-        #     print(" *",book)  
-
         for i in range(len(self.books)):
             print(f"* {self.books[i]} : {self.qty[i]}")
             
@@ -92,4 +89,4 @@ if __name__ == "__main__":
 
         
 
-# ["Algorithms", "Django", "Clrs", "Python Notes"]
+
